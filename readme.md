@@ -11,12 +11,12 @@
 
 支持三种访问协议：
 
-* HTTP协议: `https://github.com/gotgithub/helloworld.git` 。
-* Git协议: `git://github.com/gotgithub/helloworld.git` 。
-* SSH协议: `ssh://git@github.com/gotgithub/helloworld.git` 。
+* HTTP协议: `https://github.com/toto4726702/HelloGit.git` 。
+* Git协议: `git://github.com/toto4726702/HelloGit.git` 。
+* SSH协议: `ssh://git@github.com/toto4726702/HelloGit.git` 。
 
 ## 克隆版本库
 
 操作示例：
 
-$ git clone git://github.com/gotgithub/helloworld.git
+$ git clone git://github.com/toto4726702/HelloGit.git
