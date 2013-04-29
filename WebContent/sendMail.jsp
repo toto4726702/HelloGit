@@ -40,11 +40,11 @@
 	  </div>
 	  <div class="modal-body">
 	    <p>Please enter the unlock password:</p>
-	    <input type="text" placeholder="Password" class="span4">
+	    <input type="password" placeholder="Password" class="span4">
 	  </div>
 	  <div class="modal-footer">
 	    <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
-	    <button class="btn btn-primary" data-dismiss="modal" onclick="alert('a')">Confirm</button>
+	    <button class="btn btn-primary" data-dismiss="modal" onclick="lockMail()">Confirm</button>
 	  </div>
 	</div>
   	
@@ -71,6 +71,12 @@
     	//Initialize UI Component
     	CKEDITOR.replace('myarea', {
     		language: 'zh-cn'
+    	});
+    	
+    	//Tooltips
+    	$('#lock').tooltip({
+    		title:"Password Protect",
+    		placement:"top"
     	});
     	
     	function lockMail(){
